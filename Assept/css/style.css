@@ -410,6 +410,17 @@
     border: 0;
 }
 
+.specials .nav-link {
+    border: 0;
+    padding: 12px 15px;
+    transition: 0.3s;
+    color: #fff;
+    border-radius: 0;
+    border-right: 2px solid #5e76cd;
+    font-weight: 600;
+    font-size: 15px;
+}
+
 
 
 
