@@ -430,6 +430,15 @@
     border-color: #cda45e;
 }
 
+.specials .nav-link:hover {
+    border-color: #cda45e;
+}
+
+.specials .tab-pane.active {
+    -webkit-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+}
+
 
 
 
