@@ -422,16 +422,16 @@
 }
 
 .specials .nav-link:hover {
-    color: #cda45e;
+    color: orange;
 }
 .specials .nav-link.active {
     color: #1a1814;
-    background: #cda45e;
-    border-color: #cda45e;
+    background: orange;
+    border-color: orange;
 }
 
 .specials .nav-link:hover {
-    border-color: #cda45e;
+    border-color: orange;
 }
 
 .specials .tab-pane.active {
@@ -443,11 +443,11 @@
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #fff;
+    color: orange;
 }
 
 .specials .details p {
-    color: #aaaaaa;
+    color: black;
 }
 
 .specials .details p:last-child {
