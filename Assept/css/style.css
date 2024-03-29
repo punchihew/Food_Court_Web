@@ -357,7 +357,10 @@
 }
 
 /*** Service ***/
-
+#services{
+    width: 100%;
+    height: 100vh;
+}
 .section-title {
     font-size: 25px;
     position: relative;
