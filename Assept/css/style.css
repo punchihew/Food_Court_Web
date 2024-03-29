@@ -381,11 +381,12 @@
 }
 
 .service-item:hover {
-    /*background: var(--primary);*/
-    background: url(../image/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: var(--primary);
+    /*background: url(../image/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    transition-duration: 1s;
 }
 
 .service-item * {
@@ -395,6 +396,7 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
+
 
 
 
