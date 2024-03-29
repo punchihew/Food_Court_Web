@@ -450,6 +450,17 @@
     color: #aaaaaa;
 }
 
+.specials .details p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .specials .nav-link {
+        border: 0;
+        padding: 15px;
+    }
+}
+
 
 
 
