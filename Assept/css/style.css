@@ -368,6 +368,10 @@
     font-family: 'Pacifico', cursive;
     font-weight: 600;
     margin-top: 10vh;
+    margin-left: 10vh;
+}
+#services-prt{
+    margin-top: -10vh;
 }
 
 .service-item {
@@ -377,7 +381,11 @@
 }
 
 .service-item:hover {
-    background: var(--primary);
+    /*background: var(--primary);*/
+    background: url(../image/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .service-item * {
