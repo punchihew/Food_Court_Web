@@ -357,9 +357,20 @@
 }
 
 /*** Service ***/
+
+.section-title {
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    margin-top: 10vh;
+}
+
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
+    margin-top: 8vh;
 }
 
 .service-item:hover {
