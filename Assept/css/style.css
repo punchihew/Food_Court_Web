@@ -180,6 +180,12 @@
 
 }
 
+
+/*-----------------------------------*\
+  #====================   About ==================#
+\*-----------------------------------*/
+
+
 #about{
     position: relative;
     width: 100%;
@@ -188,10 +194,6 @@
     margin-top: -50px;
 
 }
-
-/*-----------------------------------*\
-  #About
-\*-----------------------------------*/
 .section-title {
     font-size: 25px;
     position: relative;
@@ -238,7 +240,7 @@
 .section-title.text-end::after {
     display: none;
 }
-
+/*======================  videos  =====================*/
 .video {
     position: relative;
     height: 100%;
@@ -356,7 +358,7 @@
     opacity: 1;
 }
 
-/*** Service ***/
+/***================= Service===================== ***/
 #services{
     width: 100%;
     height: 100vh;
@@ -395,6 +397,17 @@
 
 .service-item:hover * {
     color: var(--light) !important;
+}
+
+/*--------------------------------------------------------------
+# Specials
+--------------------------------------------------------------*/
+.specials {
+    overflow: hidden;
+}
+
+.specials .nav-tabs {
+    border: 0;
 }
 
 
