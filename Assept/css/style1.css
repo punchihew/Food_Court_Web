@@ -17,3 +17,8 @@ p{color: #FFF; font-family: Montserrat; font-size: 18px; font-style: normal; fon
 .container{position: relative; left: calc(50% - (1140px/2)); width: 50%; padding-block: 100px; max-width: 525px; height: 100%; }
 
 /* content */
+.slider-content-wrap{display: flex; flex-direction: column; justify-content: center;height: 100%;}
+/* social media */
+.social-icons{display: flex;align-items: center;gap: 16px;}
+.social-icons a{border: 2px solid #fff;border-radius: 50%;width: 45px;height: 45px;display: inline-block;display: flex;justify-content: center;align-items: center;}
+.social-icons img{width: 22px;height: 22px;}
