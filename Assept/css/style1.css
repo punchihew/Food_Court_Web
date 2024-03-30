@@ -22,3 +22,14 @@ p{color: #FFF; font-family: Montserrat; font-size: 18px; font-style: normal; fon
 .social-icons{display: flex;align-items: center;gap: 16px;}
 .social-icons a{border: 2px solid #fff;border-radius: 50%;width: 45px;height: 45px;display: inline-block;display: flex;justify-content: center;align-items: center;}
 .social-icons img{width: 22px;height: 22px;}
+
+/* images */
+.slider-images > img.next{
+    opacity: 1;
+    transition:  2s;
+    filter: blur(35px);
+    left: 100%;
+    top: 10%;
+    transform: translate(-50% , -50%) scale(0.3);
+}
+
