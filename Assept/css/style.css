@@ -588,6 +588,16 @@
     transition: bottom ease-in-out 0.4s;
 }
 
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+.events {
+    background: url(../img/events-bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 
 
 
