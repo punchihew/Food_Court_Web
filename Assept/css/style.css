@@ -499,6 +499,17 @@
     color: #fff;
 }
 
+.chefs .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.chefs .member .social a:hover {
+    color: #cda45e;
+}
+
 .chefs .member .member-info-content span {
     font-style: italic;
     display: block;
