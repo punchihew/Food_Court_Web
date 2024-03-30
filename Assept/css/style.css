@@ -484,7 +484,20 @@
     right: 0;
     transition: 0.2s;
 }
+.chefs .member .member-info-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    transition: bottom 0.4s;
+}
 
+.chefs .member .member-info-content h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
 
 
 
