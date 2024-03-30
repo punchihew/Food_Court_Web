@@ -11,3 +11,9 @@ p{color: #FFF; font-family: Montserrat; font-size: 18px; font-style: normal; fon
 /* logo */
 .logo a{margin-bottom: 20px;}
 .logo a img{width: 271px;height: auto;}
+.slider-main{min-height: 700px; background: radial-gradient(50% 50% at 50% 50%, #C7F6D0 0%, #7CB686 92.19%); display: flex; justify-content: space-between; align-items: center; height: 100%; overflow: hidden; position: relative; z-index: 1; }
+#backgrounds { position: absolute; width: 100%; height: 100%; top: 0; z-index: -1; }
+.background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 2s ease-in-out; }
+.container{position: relative; left: calc(50% - (1140px/2)); width: 50%; padding-block: 100px; max-width: 525px; height: 100%; }
+
+/* content */
