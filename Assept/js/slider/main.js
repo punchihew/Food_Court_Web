@@ -15,3 +15,10 @@ function updateSlider() {
 
     // Add the 'active' class to the current image
     images[imageIndex].classList.add('active');
+
+    // Add the 'previous' class to the image before the current one
+    if (imageIndex - 1 >= 0) {
+        images[imageIndex - 1].classList.add('previous');
+    } else {
+        images[images.length - 1].classList.add('previous');
+    }
