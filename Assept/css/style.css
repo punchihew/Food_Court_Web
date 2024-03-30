@@ -404,6 +404,8 @@
 --------------------------------------------------------------*/
 .specials {
     overflow: hidden;
+    width: 100%;
+    height: 80vh;
 }
 
 .specials .nav-tabs {
