@@ -32,4 +32,21 @@ p{color: #FFF; font-family: Montserrat; font-size: 18px; font-style: normal; fon
     top: 10%;
     transform: translate(-50% , -50%) scale(0.3);
 }
+.slider-images > img.active {
+    opacity: 1;
+    transform: scale(1);
+    transition:  2s;
+    filter: blur(0px);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.slider-images > img.previous{
+    opacity: 1;
+    transition:  2s;
+    filter: blur(25px);
+    left: 95%;
+    top: 90%;
+}
 
