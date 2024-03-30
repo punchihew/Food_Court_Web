@@ -50,3 +50,25 @@ p{color: #FFF; font-family: Montserrat; font-size: 18px; font-style: normal; fon
     top: 90%;
 }
 
+.slider-images > img.inactive{
+    opacity: 0;
+    transition: 2s;
+    filter: blur(35px);
+    left: 100%;
+    top: 100%;
+    transform: translate(10%, 10%) scale(0.3);
+}
+.slider-images { position: relative; width: 50%; height: 100%; top: 0; }
+.slider-images > img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    filter: blur(25px);
+    transform: translate(-50%, -50%) scale(0.3);
+    transition: opacity 3s;
+    object-fit: cover;
+    max-width: 593px;
+    max-height: 779px;
+    height: 100%;
+    min-height: 320px;
+}
