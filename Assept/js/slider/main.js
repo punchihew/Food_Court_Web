@@ -22,3 +22,17 @@ function updateSlider() {
     } else {
         images[images.length - 1].classList.add('previous');
     }
+
+    // Add the 'next' class to the image after the current one
+    if (imageIndex + 1 < images.length) {
+        images[imageIndex + 1].classList.add('next');
+    } else {
+        images[0].classList.add('next');
+    }
+
+    // Add the 'inactive' class to the other images
+    images.forEach((image, index) => {
+        if (index !== imageIndex && index !== (imageIndex - 1 + images.length) % images.length && index !== (imageIndex + 1) % images.length) {
+            image.classList.add('inactive');
+        }
+    });
