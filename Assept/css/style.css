@@ -527,6 +527,17 @@
     text-align: center;
 }
 
+.chefs .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.chefs .member .social a:hover {
+    color: #cda45e;
+}
+
 
 
 
