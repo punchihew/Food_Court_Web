@@ -544,10 +544,21 @@
 }
 
 .chefs .member:hover .member-info {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgb(252, 154, 3) 20%, rgba(0, 212, 255, 0) 100%);
     opacity: 1;
     transition: 0.4s;
 }
+
+.chefs .member:hover .member-info-content {
+    bottom: 60px;
+    transition: bottom 0.4s;
+}
+
+.chefs .member:hover .social {
+    bottom: 0;
+    transition: bottom ease-in-out 0.4s;
+}
+
 
 
 
