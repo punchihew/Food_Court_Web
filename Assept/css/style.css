@@ -467,6 +467,11 @@
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
+
+.chefs.member.img-fluid{
+    width: 300px;
+    height: 300px;
+}
 .chefs .member {
     text-align: center;
     margin-bottom: 20px;
