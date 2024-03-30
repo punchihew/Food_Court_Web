@@ -611,6 +611,17 @@
 }
 
 
+.events .container {
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .events {
+        background-attachment: fixed;
+    }
+}
+
+
 
 
 
