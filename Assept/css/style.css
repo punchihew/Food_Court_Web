@@ -402,10 +402,21 @@
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
+
+.section-title {
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    margin-top: 9vh;
+    margin-left: 32vh;
+}
+
 .specials {
     overflow: hidden;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
 }
 
 .specials .nav-tabs {
@@ -468,9 +479,14 @@
 # Chefs
 --------------------------------------------------------------*/
 
-.chefs.member.img-fluid{
-    width: 300px;
-    height: 300px;
+.section-title {
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    margin-top: -20vh;
+    margin-left: 32vh;
 }
 .chefs .member {
     text-align: center;
