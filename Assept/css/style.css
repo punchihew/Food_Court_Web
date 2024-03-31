@@ -732,6 +732,10 @@
     border-color: var(--primary) !important;
 }
 
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    color: var(--light) !important;
+}
+
 
 
 
