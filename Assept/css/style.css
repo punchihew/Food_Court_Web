@@ -727,6 +727,12 @@
     transition: .5s;
 }
 
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+
 
 
 
