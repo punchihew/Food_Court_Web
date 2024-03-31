@@ -754,6 +754,12 @@
     transition: .5s;
 }
 
+.testimonial-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+
 
 
 
