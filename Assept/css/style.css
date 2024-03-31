@@ -736,6 +736,13 @@
     color: var(--light) !important;
 }
 
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 
 
 
