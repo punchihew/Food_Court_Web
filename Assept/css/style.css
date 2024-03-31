@@ -718,6 +718,17 @@
 }
 
 
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
+
+.testimonial-carousel .owl-item .testimonial-item,
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    transition: .5s;
+}
+
+
+
 
 
 
