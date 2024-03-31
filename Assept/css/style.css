@@ -728,12 +728,12 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background: #FEA116FF !important;
+    border-color: #FEA116FF !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: var(--light) !important;
+    color: #F1F8FFFF !important;
 }
 
 .testimonial-carousel .owl-dots {
@@ -755,11 +755,9 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #FEA116FF;
+    border-color: #FEA116FF;
 }
-
-
 
 
 
