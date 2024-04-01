@@ -85,7 +85,21 @@
     margin: 0 auto;
     transform: rotate(90deg);
 }
-
+.food_menu .nav-tabs .active img {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    height: 14px;
+    width: 10px;
+    bottom: 8px;
+}
+/* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+.food_menu .nav-tabs .active {
+    color: #ff6426;
+}
 
 .food_menu .section_tittle{
     text-align: center;
