@@ -6,6 +6,7 @@
 }
 .service .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .2) ;
+    border-radius: 40px !important;
 }
 
 .service .service-item .service-img {
