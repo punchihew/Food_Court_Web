@@ -80,3 +80,21 @@
     text-align: center;
 }
 
+
+/* line 16, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+.food_menu .nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+.food_menu .nav-tabs a {
+    font-size: 16px;
+    color: #0d1c26;
+    padding: 45px 25px 25px;
+    position: relative;
+}
+
+
