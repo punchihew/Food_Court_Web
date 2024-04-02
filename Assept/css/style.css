@@ -770,7 +770,7 @@
     padding: 160px 0 60px 0;
 }
 .contact {
-    background: linear-gradient(rgba(254, 161, 22, 0.8), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
+    background: linear-gradient(rgba(254, 223, 22, 0.8), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -976,6 +976,86 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+/*** Spinner Start ***/
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*** Button Start ***/
+.btn {
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm-square {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-md-square {
+    width: 44px;
+    height: 44px;
+}
+
+.btn-lg-square {
+    width: 56px;
+    height: 56px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50%;
+}
+
+.btn.btn-primary {
+    box-shadow: inset 0 0 0 0 var(--bs-primary);
+}
+
+.btn.btn-primary:hover {
+    box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
+    color: var(--bs-primary) !important;
+}
+
+.btn.btn-light {
+    box-shadow: inset 0 0 0 0 var(--bs-primary);
+}
+
+.btn.btn-light:hover {
+    box-shadow: inset 300px 0 0 0 var(--bs-primary);
+    color: var(--bs-light) !important;
+}
+
+.btn-hover {
+    transition: 0.5s;
+}
+
+.btn-hover:hover {
+    color: var(--bs-secondary) !important;
+}
+
 
 
 
