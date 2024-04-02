@@ -778,6 +778,14 @@
     color: var(--bs-white) !important;
 }
 
+.contact .contact-form .form-floating input,
+.contact .contact-form .form-floating textarea,
+.contact .contact-form .form-floating label {
+    color: var(--bs-light);
+}
+
+
+
 
 
 /*** Service Start ***/
