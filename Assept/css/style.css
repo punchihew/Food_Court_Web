@@ -1078,6 +1078,11 @@
     margin: 10px 0 5px 45px;
     color: #000000;
 }
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 0 45px;
+}
 
 
 
