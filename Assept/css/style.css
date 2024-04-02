@@ -820,6 +820,14 @@
     border: 1px solid var(--bs-white) !important;
 }
 
+.contact .section-title .sub-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--bs-primary);
+}
+
+
 
 
 
