@@ -709,7 +709,6 @@
     transition: all ease-in-out 0.4s;
     width: 400px;
     height: 400px;
-    border-radius: 10px;
 }
 
 .gallery .gallery-item:hover img {
