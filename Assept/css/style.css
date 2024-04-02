@@ -845,6 +845,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.footer .footer-item a {
+    line-height: 35px;
+    color: var(--bs-body);
+    transition: 0.5s;
+}
+
 
 
 
