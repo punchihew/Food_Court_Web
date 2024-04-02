@@ -1058,6 +1058,13 @@
 
 
 
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+}
+
+
+
 
 
 
