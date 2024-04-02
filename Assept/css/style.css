@@ -1126,6 +1126,11 @@
     opacity: 1;
 }
 
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #cda45e;
+}
+
+
 
 
 
