@@ -1102,6 +1102,19 @@
 }
 
 
+.testimonials .testimonial-item p {
+    color: #fff;
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: #26231d;
+    position: relative;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+
 
 
 
