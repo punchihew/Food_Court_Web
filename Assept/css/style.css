@@ -702,7 +702,6 @@
 --------------------------------------------------------------*/
 .gallery .gallery-item {
     overflow: hidden;
-    background: orange;
 }
 
 
@@ -840,10 +839,11 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../image/ben-kim-JjzjBLmANVA-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 5vh;
 }
 .footer .footer-item a {
     line-height: 35px;
