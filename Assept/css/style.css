@@ -759,6 +759,18 @@
 }
 
 
+
+/*** Contact Start ***/
+.contact {
+    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
 /*** Service Start ***/
 .service .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .2) ;
