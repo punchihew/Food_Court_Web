@@ -1072,6 +1072,13 @@
     border: 6px solid rgba(255, 255, 255, 0.2);
 }
 
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #000000;
+}
+
 
 
 
