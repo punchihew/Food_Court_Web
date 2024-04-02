@@ -761,8 +761,16 @@
 
 
 /*** Contact Start ***/
+
+.bg-breadcrumb {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/gallery/bundo-kim-Pb9bUzH1nD8-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 60px 0;
+}
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(254, 161, 22, 0.8), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
