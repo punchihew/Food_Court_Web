@@ -859,6 +859,11 @@
 }
 
 /*** Footer End ***/
+/*** copyright Start ***/
+.copyright {
+    background: var(--bs-dark) !important;
+}
+/*** copyright end ***/
 
 
 
