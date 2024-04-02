@@ -1084,6 +1084,12 @@
     margin: 0 0 0 45px;
 }
 
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #d3af71;
+    font-size: 26px;
+}
+
+
 
 
 
