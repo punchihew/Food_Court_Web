@@ -850,6 +850,10 @@
     color: var(--bs-body);
     transition: 0.5s;
 }
+.footer .footer-item p {
+    line-height: 35px;
+}
+
 
 
 
