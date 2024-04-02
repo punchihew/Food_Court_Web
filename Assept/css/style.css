@@ -797,6 +797,17 @@
     text-transform: uppercase;
     color: var(--bs-primary);
 }
+.contact .section-title .sub-style::before {
+    content: "";
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-top: 8px;
+    margin-left: -100px;
+    border: 1px solid var(--bs-white) !important;
+}
 
 
 
