@@ -143,3 +143,10 @@
     background-size: cover;
     margin-top: 5vh;
 }
+.footer .footer-item a {
+    line-height: 35px;
+    color: var(--bs-body);
+    transition: 0.5s;
+}
+.footer .footer-item p {
+    line-height: 35px;
