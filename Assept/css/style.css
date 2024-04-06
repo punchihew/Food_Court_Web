@@ -1152,6 +1152,27 @@
     color: var(--bs-primary) !important;
 }
 
+/*** Youtube Video start ***/
+.video {
+    position: relative;
+}
+
+.video .btn-play {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: content-box;
+    display: block;
+    width: 33px;
+    height: 44px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+
+}
+
 
 
 
