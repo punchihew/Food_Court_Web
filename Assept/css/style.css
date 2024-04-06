@@ -1190,6 +1190,21 @@
     transition: 0.5s;
 }
 
+.video .btn-play:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: var(--bs-secondary);
+    border-radius: 50%;
+    transition: all 300ms;
+}
+
 
 
 
