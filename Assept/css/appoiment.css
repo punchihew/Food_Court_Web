@@ -133,3 +133,13 @@
 }
 /*** Youtube Video End ***/
 /*** Appointment End ***/
+
+
+/*** Footer Start ***/
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../image/ben-kim-JjzjBLmANVA-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5vh;
+}
