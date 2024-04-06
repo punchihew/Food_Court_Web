@@ -155,3 +155,9 @@
     letter-spacing: 2px;
     color: var(--bs-primary);
 }
+
+/*** Footer End ***/
+/*** copyright Start ***/
+.copyright {
+    background: var(--bs-dark) !important;
+}
