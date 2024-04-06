@@ -769,7 +769,7 @@
     padding: 160px 0 60px 0;
 }
 .contact {
-    background: linear-gradient(rgb(245, 245, 6), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
+    background: linear-gradient(rgba(239, 162, 134, 0.57), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
