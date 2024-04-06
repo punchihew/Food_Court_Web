@@ -1174,6 +1174,24 @@
 }
 
 
+.video .btn-play:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 115px;
+    height: 115px;
+    background: var(--bs-primary);
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+    transition: 0.5s;
+}
+
+
+
 
 
 
