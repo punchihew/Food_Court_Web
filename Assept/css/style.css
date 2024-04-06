@@ -769,7 +769,7 @@
     padding: 160px 0 60px 0;
 }
 .contact {
-    background: linear-gradient(rgba(254, 223, 22, 0.8), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
+    background: linear-gradient(rgb(245, 245, 6), rgba(254, 161, 22, 0.84)), url(../image/slider_1/eric-nopanen-3skLpaOBlMw-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -954,7 +954,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 5vh;
+    margin-top: 1vh;
 }
 .footer .footer-item a {
     line-height: 35px;
